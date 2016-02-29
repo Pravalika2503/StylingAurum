@@ -1,0 +1,9 @@
+<%= form_for([@jewel, @jewel.reservations.new]) do %>
+	<%= f.text_field :start_date %>
+	<%= f.text_field :end_date %>
+	<%= f.hidden_field :jewel_id, value: @jewel.id %>
+	<%= f.hidden_field :price, value: @jewel.price %>
+
+	<br>
+	<%= f.submit "Book Now", class: "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_code: MyString
+  jewel_type: MyString
+  metal_type: MyString
+  stone_type: MyString
+  weight: 1
+  stone_weight: 1
+  purity: 1
+  pieces_number: 1
+  listing_name: MyString
+  summary: MyText
+  address: MyString
+  in_stock: false
+  is_shipping: false
+  price: 1
+  active: false
+  user_id: 
+
+two:
+  product_code: MyString
+  jewel_type: MyString
+  metal_type: MyString
+  stone_type: MyString
+  weight: 1
+  stone_weight: 1
+  purity: 1
+  pieces_number: 1
+  listing_name: MyString
+  summary: MyText
+  address: MyString
+  in_stock: false
+  is_shipping: false
+  price: 1
+  active: false
+  user_id: 
