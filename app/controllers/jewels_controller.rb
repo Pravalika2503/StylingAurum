@@ -8,6 +8,10 @@ class JewelsController < ApplicationController
 
   def show
     @photos = @jewel.photos
+    @booked = Reservation.where("jewel_id = ? AND user_id = ?", @jewel.id, current_user.id).present? if current_user
+
+    @reviews = @jewel.reviews
+    @hasReview = @reviews.find_by(user_id: current_user.id) if current_user
   end
 
   def new

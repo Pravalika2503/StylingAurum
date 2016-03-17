@@ -26,10 +26,16 @@ gem "paperclip", "~> 4.3"
 
 gem "geocoder"
 
+gem "jquery-ui-rails"
+
+gem "private_pub"
+gem "thin"
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
